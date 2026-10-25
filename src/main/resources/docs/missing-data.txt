@@ -1,0 +1,1 @@
+When a destination table has missing rows, first compare the source count and destination count for the same time range. Check whether a filter, incremental watermark, or rejected-record rule excluded the records. Use the job run ID to inspect rejected-record details.

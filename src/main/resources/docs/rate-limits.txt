@@ -1,0 +1,1 @@
+Connector rate-limit errors are retried with exponential backoff. For repeated HTTP 429 responses, reduce concurrent syncs or request a higher provider quota. Do not repeatedly restart the job because this can extend the backoff window.

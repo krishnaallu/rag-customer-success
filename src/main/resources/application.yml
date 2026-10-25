@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: customer-success-rag
+
+server:
+  port: 8080
+
+rag:
+  openai-api-key: ${OPENAI_API_KEY:}
+  chat-model: ${OPENAI_CHAT_MODEL:gpt-4o-mini}
+  embedding-model: ${OPENAI_EMBEDDING_MODEL:text-embedding-3-small}
+  max-results: 5
+  min-score: 0.55
+

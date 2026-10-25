@@ -1,0 +1,1 @@
+Schema drift occurs when a source column is added, removed, or changes type. The ETL job fails validation before loading data. Compare the source schema with the destination schema, then either map the new field or approve the migration in the pipeline configuration.

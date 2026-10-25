@@ -1,0 +1,1 @@
+Database authentication failures usually mean the credential expired, the IP allowlist changed, or the database user lost read permissions. Rotate the stored credential and run the connection test. The job ID and exact database error should be attached to an escalation.

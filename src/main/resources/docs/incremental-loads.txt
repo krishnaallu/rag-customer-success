@@ -1,0 +1,1 @@
+Incremental loads use the configured watermark column. If a job reprocesses old records, verify that the watermark is monotonically increasing and that the source timestamp time zone is UTC. Use a full refresh only after confirming the destination can tolerate duplicate writes.
